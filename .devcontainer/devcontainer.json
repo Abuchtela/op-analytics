@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "test": "pipenv install --dev && pipenv run pytest",
+    "build": "python -m pip install pipenv && pipenv install"
+  }
+}
